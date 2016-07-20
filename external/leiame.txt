@@ -1,0 +1,114 @@
+---------------------------------------------------------------------
+-- Estrutura do ficheiro leiame.txt                                --
+---------------------------------------------------------------------
+
+1. Formato do ficheiro de códigos postais
+2. Formato do ficheiro de distritos
+3. Formato do ficheiro de concelhos
+
+1. Formato do ficheiro de códigos postais
+---------------------------------------------------------------------
+
+O ficheiro de códigos postais contem 1 ou mais linhas contendo dados
+referentes à pesquisa efectuada. Todas as linhas têm o mesmo formato, e
+sobre esse formato são colocados 3 tipos de resultados diferentes:
+- Clientes dos CTT com código postal próprio
+- Localidades
+- Arruamentos e troços de rua
+
+Cada linha tem 16 campos de dados, separados por ponto e vírgula, contendo os
+seguintes valores:
+
+1) Designação: DD
+   Conteúdo:   Código do Distrito
+   Tipo:       Alfa-numérico, sempre preenchido 
+2) Designação: CC
+   Conteúdo:   Código do Concelho
+   Tipo:       Alfa-numérico, sempre preenchido
+3) Designação: LLLL
+    Conteúdo:   Código da localidade
+    Tipo:       Alfa-numérico, sempre preenchido
+4) Designação: LOCALIDADE
+   Conteúdo:   Nome da localidade
+   Tipo:       Alfa-numérico, sempre preenchido
+5) Designação: ART_COD
+    Conteúdo:   Código da Artéria
+    Tipo:       Alfa-numérico
+6) Designação: ART_TIPO
+   Conteúdo:   Artéria - Tipo (Rua, Praça, etc)
+   Tipo:       Alfa-numérico
+7) Designação: PRI_PREP
+   Conteúdo:   Primeira preposição
+   Tipo:	   Alfa-numérico
+8) Designação: ART_TITULO
+   Conteúdo:   Artéria - Titulo (Doutor, Eng.º, Professor, etc)
+   Tipo:       Alfa-numérico
+9)Designação: SEG_PREP
+   Conteúdo:   Segunda preposição
+   Tipo:       Alfa-numérico
+10) Designação: ART_DESIG
+   Conteúdo:   Artéria - Designação
+   Tipo:       Alfa-numérico
+11) Designação: ART_LOCAL
+   Conteúdo:   Artéria - Informação do Local/Zona
+   Tipo:       Alfa-numérico
+12) Designação: TROÇO
+   Conteúdo:   Descrição do troço
+   Tipo:       Alfa-numérico
+13) Designação: PORTA
+    Conteúdo:   Número da porta do cliente
+    Tipo:       Alfa-numérico, vazio para códigos postais geográficos(1)
+14) Designação: CLIENTE
+    Conteúdo:   Nome do cliente
+    Tipo:       Alfa-numérico, vazio para códigos postais geográficos(1)
+15) Designação: CP4
+    Conteúdo:   N.º do código postal
+    Tipo:       Alfa-numérico, sempre preenchido
+16) Designação: CP3
+    Conteúdo:   Extensão do n.º do código postal
+    Tipo:       Alfa-numérico, sempre preenchido
+17) Designação: CPALF
+    Conteúdo:   Designação Postal
+    Tipo:       Alfa-numérico, sempre preenchido
+ 
+(1) Código postal geográfico: quando o último digito do CP4 é 0(zero) ou 5(cinco).
+
+2. Formato do ficheiro de distritos
+---------------------------------------------------------------------
+
+O ficheiro de distritos contém os códigos administrativos dos distritos
+e respectiva descrição.
+
+Cada linha tem 2 campos de dados, separados por ponto e vírgula, contendo
+os seguintes valores:
+
+1) Designação: DD
+   Conteúdo:   Código do Distrito
+   Tipo:       Alfa-numérico, sempre preenchido 
+2) Designação: DESIG
+   Conteúdo:   Designação do Distrito
+   Tipo:       Alfa-numérico, sempre preenchido
+
+3. Formato do ficheiro de concelhos
+---------------------------------------------------------------------
+
+O ficheiro de concelhos contém os códigos administrativos dos concelhos
+e respectiva descrição.
+
+Cada linha tem 3 campos de dados, separados por ponto e vírgula, contendo
+os seguintes valores:
+
+1) Designação: DD
+   Conteúdo:   Código do Distrito
+   Tipo:       Alfa-numérico, sempre preenchido 
+2) Designação: CC
+   Conteúdo:   Código do Concelho
+   Tipo:       Alfa-numérico, sempre preenchido
+3) Designação: DESIG
+   Conteúdo:   Designação do Concelho
+   Tipo:       Alfa-numérico, sempre preenchido
+
+) Designação: DESIG
+   Conteúdo:   Designação do Concelho
+   Tipo:       Alfa-numérico, sempre preenchido
+
