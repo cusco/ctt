@@ -6,9 +6,14 @@ $mysqli = new mysqli('localhost', 'ctt', 'dm9WYUEC64bEbFv6', 'CTT');
 
 $dbName = 'CTT';
 
-#var_dump(importDistritos('distritos.txt', 'CTT', 'distritos', $mysqli));
-#var_dump(importConcelhos('concelhos.txt', 'CTT', 'concelhos', $mysqli));
-var_dump(importCodigosPostais('todos_cp.txt', 'CTT', 'codigosPostais', $mysqli));
+echo date('Y-m-d H:i:s')."|Importing Distritos...\n";
+var_dump(importDistritos('external/distritos.txt', 'CTT', 'distritos', $mysqli));
+echo date('Y-m-d H:i:s')."|Importing Concelhos...\n";
+var_dump(importConcelhos('external/concelhos.txt', 'CTT', 'concelhos', $mysqli));
+echo date('Y-m-d H:i:s')."|Importing post codes...\n";
+var_dump(importCodigosPostais('external/todos_cp.txt', 'CTT', 'codigosPostais', $mysqli));
+
+echo date('Y-m-d H:i:s')."|Done!\n";
 
 function importDistritos($fileName, $dbName, $tableName, $mysqli){
 	$distritos = file($fileName, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
