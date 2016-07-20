@@ -12,9 +12,9 @@ basically:
 - create database, user, password in MySQL
 - change user/password in import.php and getGeo.php
 - run php -q import.php
-- run php -q getGeo.php (this is slow, because of dns lookup? in linux create a static dns entry in /etc/hosts)
+- run php -q updateGeo.php (this is slow.. and is restricted to 2500 (google limit per day?))
 
-getGeo.php uses google to get latitude and longitude.
+updateGeo.php uses google to get latitude and longitude.
 
 Google has some daily usage restrictions ..
 

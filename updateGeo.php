@@ -4,7 +4,7 @@
 #die();
 $mysqli = new mysqli('localhost', 'ctt', 'dm9WYUEC64bEbFv6', 'CTT');
 
-$qry = "select distinct CP4, CP3 from codigosPostais where LONGITUDE = '' AND LATITUDE = '' limit 1000";
+$qry = "select distinct CP4, CP3 from codigosPostais where LONGITUDE = '' AND LATITUDE = '' limit 2500";
 $qid = $mysqli->query($qry);
 
 while($row = $qid->fetch_object()){
