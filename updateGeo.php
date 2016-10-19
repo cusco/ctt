@@ -76,6 +76,28 @@ function getGeo($cp4, $cp3){
 	$maxKey = max(array_keys($data->results));
 	$geo = $data->results[$maxKey]->geometry->location;
 
+	foreach($data->results as $possibleResult){	// match best results according to http://www.portugal-a-programar.pt/forums/topic/74313-pesquisa-por-latitude-e-longitude-por-c%C3%B3digos-postais/#comment-599669
+
+		if(substr($possibleResult->formatted_address,0,8)=="$cp4-$cp3"){
+			// preferable
+			$geo = $possibleResult->geometry->location;
+			break;
+		}
+		if(property_exists($possibleResult, 'partial_match')){
+			// avoid
+			continue;
+		}
+
+		if(property_exists($possibleResult, 'types')){
+			if(in_array('postal_code_prefix', $possibleResult->types)){
+				// avoid
+				continue;
+			}
+		}
+
+		// not avoided (or broken) so far? use it!!
+		$geo = $possibleResult->geometry->location;
+	}
 	return $geo;
 }
 
