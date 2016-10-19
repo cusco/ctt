@@ -21,4 +21,4 @@ Google has some daily usage restrictions ..
 You will have to run getGeo.php several times until your table is populated.
 
 
-* new - added file CTT.sql which contains structure and data generated from these scripts. This is probably what everybody wants.
+*new* - added file CTT.sql which contains structure and data generated from these scripts. This is probably what everybody wants.
