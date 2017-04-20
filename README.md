@@ -23,4 +23,5 @@ You will have to run getGeo.php several times until your table is populated, or 
 
 
 *new* - added file CTT.sql which contains structure and data generated from these scripts. This is probably what everybody wants.
+
 *new* - updated CTT.sql with new latitudes and longitudes based on feedback from: http://www.portugal-a-programar.pt/forums/topic/74313-pesquisa-por-latitude-e-longitude-por-c%C3%B3digos-postais/?do=findComment&comment=599669
