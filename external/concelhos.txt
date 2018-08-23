@@ -1,3 +1,40 @@
+01;06;Castelo de Paiva
+01;07;Espinho
+01;08;Estarreja
+01;09;Santa Maria da Feira
+01;10;Ílhavo
+01;11;Mealhada
+01;12;Murtosa
+01;13;Oliveira de Azeméis
+01;14;Oliveira do Bairro
+01;15;Ovar
+01;16;São João da Madeira
+01;17;Sever do Vouga
+01;18;Vagos
+01;19;Vale de Cambra
+01;01;Águeda
+01;02;Albergaria-a-Velha
+01;03;Anadia
+01;04;Arouca
+01;05;Aveiro
+02;06;Castro Verde
+02;07;Cuba
+02;08;Ferreira do Alentejo
+02;09;Mértola
+02;10;Moura
+02;11;Odemira
+02;12;Ourique
+02;13;Serpa
+02;14;Vidigueira
+02;01;Aljustrel
+02;02;Almodôvar
+02;03;Alvito
+02;04;Barrancos
+02;05;Beja
+03;06;Esposende
+03;07;Fafe
+03;08;Guimarães
+03;09;Póvoa de Lanhoso
 03;10;Terras de Bouro
 03;11;Vieira do Minho
 03;12;Vila Nova de Famalicão
@@ -269,40 +306,3 @@
 48;01;Lajes das Flores
 48;02;Santa Cruz das Flores
 49;01;Corvo
-01;06;Castelo de Paiva
-01;07;Espinho
-01;08;Estarreja
-01;09;Santa Maria da Feira
-01;10;Ílhavo
-01;11;Mealhada
-01;12;Murtosa
-01;13;Oliveira de Azeméis
-01;14;Oliveira do Bairro
-01;15;Ovar
-01;16;São João da Madeira
-01;17;Sever do Vouga
-01;18;Vagos
-01;19;Vale de Cambra
-01;01;Águeda
-01;02;Albergaria-a-Velha
-01;03;Anadia
-01;04;Arouca
-01;05;Aveiro
-02;06;Castro Verde
-02;07;Cuba
-02;08;Ferreira do Alentejo
-02;09;Mértola
-02;10;Moura
-02;11;Odemira
-02;12;Ourique
-02;13;Serpa
-02;14;Vidigueira
-02;01;Aljustrel
-02;02;Almodôvar
-02;03;Alvito
-02;04;Barrancos
-02;05;Beja
-03;06;Esposende
-03;07;Fafe
-03;08;Guimarães
-03;09;Póvoa de Lanhoso
