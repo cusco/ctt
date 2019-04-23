@@ -1,4 +1,4 @@
-ctt
+CTT database with Lat Lng
 ===
 
 #### update: upon much requested, added a csv export: https://github.com/cusco/ctt/raw/master/ctt-lat-lng-csv.zip
