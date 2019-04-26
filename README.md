@@ -1,5 +1,9 @@
-ctt
+CTT database with Lat Lng
 ===
+
+#### update: upon much requested, added a csv export: https://github.com/cusco/ctt/raw/master/ctt-lat-lng-csv.zip
+#### this file already has the scanned address and found address viaq google.
+___
 
 ctt postal codes into MySQL with latitude and longitude from google
 
